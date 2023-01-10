@@ -72,7 +72,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetch data from server
-  const response = await fetch('http://localhost:8000/', {
+  const response = await fetch('https://noob-gpt.up.railway.app/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
