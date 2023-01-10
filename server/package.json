@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "server": "nodemon server"
   },
   "keywords": [],
